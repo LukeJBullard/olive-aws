@@ -1,5 +1,23 @@
 {
-	"require": {
+    "name": "lbullard/olive-aws",
+    "description": "OliveWeb wrapper module for Amazon's AWS PHP API",
+    "keywords": ["oliveweb", "wrapper", "module", "amazon", "aws"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Bullard",
+            "email": "luke@lukebullard.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4",
 		"aws/aws-sdk-php": "2.*"
-	}
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+    "extra": {
+        "installer-name": "aws"
+    }
 }
